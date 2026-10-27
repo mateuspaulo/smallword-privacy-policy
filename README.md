@@ -1,6 +1,6 @@
 # Política de Privacidade — SmallWord
 **Última atualização:** 27 de outubro de 2026  
-**Versão:** 2.1.5  
+**Versão:** 2.1.6  
 
 A sua privacidade é uma prioridade absoluta para o **SmallWord**. Esta Política de Privacidade descreve de forma clara e transparente como tratamos as suas informações ao utilizar o aplicativo móvel **SmallWord** para Android.
 
@@ -47,18 +47,17 @@ Caso futuras versões do aplicativo introduzam recursos opcionais que possam req
 
 ## 6. Contato
 
-Se você tiver qualquer dúvida ou solicitação referente a esta Política de Privacidade, entre em contato através do repositório oficial ou pelo e-mail do desenvolvedor:
+Se você tiver qualquer dúvida ou solicitação referente a esta Política de Privacidade, entre em contato através do e-mail do desenvolvedor:
 
 - **Desenvolvedor:** Mateus Paulo
-- **Repositório:** [https://github.com/mateuspaulo/SmallWord](https://github.com/mateuspaulo/SmallWord)
-- **E-mail:** `mateuspaulo.dev@gmail.com`
+- **E-mail de Suporte:** `contatohillclimb@gmail.com`
 
 ---
 ---
 
 # Privacy Policy — SmallWord (English Version)
 **Last updated:** October 27, 2026  
-**Version:** 2.1.5  
+**Version:** 2.1.6  
 
 Your privacy is paramount. This Privacy Policy describes how the **SmallWord** Android application handles information.
 
@@ -94,5 +93,4 @@ SmallWord does not knowingly collect or solicit any personal data from anyone, i
 For any questions regarding this Privacy Policy, please contact:
 
 - **Developer:** Mateus Paulo
-- **Repository:** [https://github.com/mateuspaulo/SmallWord](https://github.com/mateuspaulo/SmallWord)
-- **Contact Email:** `mateuspaulo.dev@gmail.com`
+- **Support Email:** `contatohillclimb@gmail.com`
