@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmallWord — Política de Privacidade / Privacy Policy</title>
+    <meta name="description" content="Política de Privacidade oficial do aplicativo SmallWord para Android. 100% offline, sem coleta de dados e sem anúncios.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1976D2;
+            --primary-dark: #0D47A1;
+            --bg: #F8F9FA;
+            --card-bg: #FFFFFF;
+            --text-main: #212529;
+            --text-muted: #6C757D;
+            --border: #E9ECEF;
+            --badge-bg: #E3F2FD;
+            --badge-text: #0D47A1;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #64B5F6;
+                --primary-dark: #90CAF9;
+                --bg: #121212;
+                --card-bg: #1E1E1E;
+                --text-main: #E0E0E0;
+                --text-muted: #A0A0A0;
+                --border: #2C2C2C;
+                --badge-bg: #15293E;
+                --badge-text: #90CAF9;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo-title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.25rem;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        .badge-list {
+            display: flex;
+            justify-content: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+
+        .badge {
+            background-color: var(--badge-bg);
+            color: var(--badge-text);
+            padding: 0.35rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .lang-btn {
+            background: none;
+            border: 1px solid var(--border);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            color: var(--text-main);
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn.active {
+            background-color: var(--primary);
+            color: #FFFFFF;
+            border-color: var(--primary);
+        }
+
+        .content-card {
+            background: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin-top: 2rem;
+            margin-bottom: 0.75rem;
+            border-bottom: 2px solid var(--badge-bg);
+            padding-bottom: 0.3rem;
+        }
+
+        h2:first-of-type {
+            margin-top: 0;
+        }
+
+        p, ul {
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        strong {
+            font-weight: 600;
+        }
+
+        .highlight-box {
+            background-color: var(--badge-bg);
+            border-left: 4px solid var(--primary);
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1.5rem 0;
+            color: var(--text-main);
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo-title">SmallWord</h1>
+            <p class="subtitle">Editor de Documentos DOCX & Visualizador de PDF</p>
+            <div class="badge-list">
+                <span class="badge">🔒 100% Offline</span>
+                <span class="badge">🚫 Zero Anúncios</span>
+                <span class="badge">🛡️ Zero Rastreamento</span>
+                <span class="badge">📱 Armazenamento Local</span>
+            </div>
+            <div class="lang-switch">
+                <button class="lang-btn active" onclick="switchLang('pt')">Português (Brasil)</button>
+                <button class="lang-btn" onclick="switchLang('en')">English (United States)</button>
+            </div>
+        </header>
+
+        <!-- SEÇÃO PORTUGUÊS -->
+        <main id="section-pt" class="content-card">
+            <h2>Política de Privacidade</h2>
+            <p><strong>Última atualização:</strong> 27 de outubro de 2026<br>
+            <strong>Versão do aplicativo:</strong> 2.1.5</p>
+
+            <div class="highlight-box">
+                <strong>Resumo Direto:</strong> O SmallWord é um aplicativo 100% offline. Ele não coleta, não transmite, não armazena em servidores e não compartilha absolutamente nenhum dado pessoal ou de uso. Seus documentos pertencem unicamente a você.
+            </div>
+
+            <h2>1. Compromisso com a Privacidade por Design</h2>
+            <ul>
+                <li><strong>Zero Acesso à Internet:</strong> O aplicativo não declara nem solicita a permissão de rede (<code>android.permission.INTERNET</code>). O SmallWord é tecnicamente impossibilitado de conectar-se à internet.</li>
+                <li><strong>Zero Coleta de Dados Pessoais:</strong> Não solicitamos nem coletamos nomes, endereços de e-mail, telefones, localização, endereço IP ou identificadores únicos de dispositivo.</li>
+                <li><strong>Zero Rastreamento e Telemetria:</strong> O aplicativo não contém bibliotecas de análise estatística, métricas de engajamento ou ferramentas de monitoramento de comportamento (sem Google Analytics, Firebase Analytics ou similares).</li>
+                <li><strong>Zero Anúncios:</strong> O aplicativo não utiliza SDKs de redes de publicidade (sem AdMob ou Unity Ads).</li>
+            </ul>
+
+            <h2>2. Tratamento de Arquivos e Armazenamento Local</h2>
+            <ul>
+                <li><strong>Armazenamento Restrito ao Aparelho:</strong> Todos os arquivos criados ou modificados (DOCX e PDF) permanecem estritamente salvos no armazenamento local do seu smartphone ou tablet.</li>
+                <li><strong>Sem Sincronização em Nuvem:</strong> O SmallWord não opera servidores próprios de nuvem.</li>
+                <li><strong>Acesso a Documentos:</strong> O aplicativo acessa apenas os arquivos que você expressamente seleciona por meio do seletor nativo do sistema Android (<em>Storage Access Framework</em>).</li>
+            </ul>
+
+            <h2>3. Segurança e Privacidade Infantil</h2>
+            <p>Por funcionar exclusivamente no dispositivo do usuário e sem conexão externa, não há tráfego de dados suscetível a interceptação. O aplicativo é seguro para todas as idades e não coleta informações de crianças ou adolescentes (em total conformidade com a COPPA e a LGPD).</p>
+
+            <h2>4. Informações de Contato</h2>
+            <p>Caso tenha dúvidas ou sugestões a respeito desta Política de Privacidade, entre em contato:</p>
+            <ul>
+                <li><strong>Desenvolvedor:</strong> Mateus Paulo</li>
+                <li><strong>E-mail de Suporte:</strong> <a href="mailto:mateuspaulo.dev@gmail.com">mateuspaulo.dev@gmail.com</a></li>
+                <li><strong>Repositório:</strong> <a href="https://github.com/mateuspaulo/SmallWord" target="_blank" rel="noopener">github.com/mateuspaulo/SmallWord</a></li>
+            </ul>
+        </main>
+
+        <!-- SEÇÃO INGLÊS -->
+        <main id="section-en" class="content-card" style="display: none;">
+            <h2>Privacy Policy</h2>
+            <p><strong>Last updated:</strong> October 27, 2026<br>
+            <strong>Application version:</strong> 2.1.5</p>
+
+            <div class="highlight-box">
+                <strong>Executive Summary:</strong> SmallWord is a 100% offline application. It does not collect, transmit, store on remote servers, or share any personal or usage data whatsoever. Your documents remain entirely on your device.
+            </div>
+
+            <h2>1. Privacy by Design Commitment</h2>
+            <ul>
+                <li><strong>Zero Internet Access:</strong> The app does not declare or request network permissions (<code>android.permission.INTERNET</code>). SmallWord is technically incapable of establishing internet connections.</li>
+                <li><strong>Zero Personal Data Collection:</strong> We do not collect names, email addresses, phone numbers, location data, IP addresses, or device identifiers.</li>
+                <li><strong>Zero Analytics and Telemetry:</strong> No analytics SDKs or behavior tracking tools are bundled (no Firebase Analytics, Google Analytics, or third-party trackers).</li>
+                <li><strong>Zero Advertisements:</strong> The application is completely ad-free.</li>
+            </ul>
+
+            <h2>2. File Handling and Local Storage</h2>
+            <ul>
+                <li><strong>Strictly Local Storage:</strong> All files created, edited, or viewed (DOCX and PDF) reside solely on your device.</li>
+                <li><strong>No Cloud Storage:</strong> SmallWord does not maintain or connect to any cloud backend.</li>
+                <li><strong>Document Access:</strong> The application only accesses files you explicitly choose through Android's native <em>Storage Access Framework (SAF)</em>.</li>
+            </ul>
+
+            <h2>3. Security and Children's Privacy</h2>
+            <p>Because the app operates strictly offline, no user data traverses external networks. The app complies with global privacy regulations, including COPPA and GDPR, and does not knowingly collect data from children under 13.</p>
+
+            <h2>4. Contact Us</h2>
+            <p>If you have any questions regarding this Privacy Policy, please contact:</p>
+            <ul>
+                <li><strong>Developer:</strong> Mateus Paulo</li>
+                <li><strong>Email:</strong> <a href="mailto:mateuspaulo.dev@gmail.com">mateuspaulo.dev@gmail.com</a></li>
+                <li><strong>Repository:</strong> <a href="https://github.com/mateuspaulo/SmallWord" target="_blank" rel="noopener">github.com/mateuspaulo/SmallWord</a></li>
+            </ul>
+        </main>
+
+        <footer>
+            <p>© 2026 SmallWord • Desenvolvido por Mateus Paulo • Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            const ptSection = document.getElementById('section-pt');
+            const enSection = document.getElementById('section-en');
+            const buttons = document.querySelectorAll('.lang-btn');
+
+            if (lang === 'pt') {
+                ptSection.style.display = 'block';
+                enSection.style.display = 'none';
+                buttons[0].classList.add('active');
+                buttons[1].classList.remove('active');
+            } else {
+                ptSection.style.display = 'none';
+                enSection.style.display = 'block';
+                buttons[0].classList.remove('active');
+                buttons[1].classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
